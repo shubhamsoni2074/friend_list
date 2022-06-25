@@ -1,0 +1,33 @@
+.ListCardContainer {
+  background-color: #e1e1fa;
+  border-radius: 10px;
+  box-shadow: 0px 0px 6px 0px;
+  margin: 10px;
+  padding: 10px;
+  border: black;
+  border-style: solid;
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+
+  transition: transform 0.2s;
+
+  &:hover {
+    transform: scale(1.03, 1.03);
+  }
+
+  .text {
+    flex: 1;
+  }
+
+  .icon {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &.starred {
+      color: #d2ad09;
+    }
+  }
+}
